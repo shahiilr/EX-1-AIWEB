@@ -39,19 +39,7 @@ Layout and styling screenshots (click to open full size):
 ![Event page layout - responsive view](Screenshot%20from%202026-01-20%2023-17-03.png)
 
 
-Git / Push to GitHub
---------------------
-You can initialize and push this folder to your GitHub repository with the commands you provided. From the `ex1` parent folder run:
 
-```bash
-echo "# EX-1-AIWEB" >> README.md
-git init
-git add .
-git commit -m "initial commit: event page + report"
-git branch -M main
-git remote add origin https://github.com/shahiilr/EX-1-AIWEB.git
-git push -u origin main
-```
 
 Notes
 -----

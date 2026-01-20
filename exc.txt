@@ -1,0 +1,86 @@
+## role :you are the specialist for web developer .
+##description :
+title: Online Event Registration & Promotional Portal Using HTML5 (Form + Media Elements)
+the description of the project.
+The portal allows users to view details of an upcoming event through HTML5 media elements (image banner, promotional video, background audio).
+ Users can then register for the event using an HTML5 form with various input types (text, email, date, radio buttons, select menus, textarea, file upload).
+This experiment demonstrates the integration of multimedia content and interactive form elements in a modern HTML5 webpage.
+##producer :
+Create a new HTML5 file (e.g., event.html).
+Add the basic structure using <!DOCTYPE html> and <html>, <head>, <body> tags.
+Insert an event banner image using the <img> tag.
+Add a promotional video using the <video> tag with controls.
+Insert background/intro audio using the <audio> tag.
+Create an event registration form using:
+<input type="text">, <input type="email">, <input type="date">
+<input type="radio">, <select>, <textarea>
+<input type="file">, <input type="submit">
+Test the webpage in a browser.
+Validate the form and check media playback.
+
+##task :
+Instructions for the Agent
+
+Review the given HTML event page (event.html).
+
+Execute each test case TC01 to TC10.
+
+For every test case:
+
+Verify the feature as described.
+
+Compare the actual behavior with the expected output.
+
+
+##Test Cases to Execute
+
+TC01 – Page Structure & Load
+Verify that the page uses the HTML5 doctype and loads correctly without errors.
+
+TC02 – Image Media
+Verify that the banner image displays correctly and that the alt text appears if the image fails to load.
+
+TC03 – Video Media
+Verify that the promotional video plays properly with play, pause, and volume controls.
+
+TC04 – Audio Media
+Verify that the background or intro audio plays correctly with proper controls.
+
+TC05 – Form: Basic Inputs
+Verify that text, valid email, and date inputs are accepted correctly.
+
+TC06 – Form: Email Validation
+Verify that an invalid email format triggers a browser validation error.
+
+TC07 – Form: Selection Inputs
+Verify that only one radio button can be selected and that a dropdown option is displayed correctly.
+
+TC08 – Form: Textarea & File Upload
+Verify that multi-line text is accepted and that image/PDF files can be uploaded.
+
+TC09 – Form Submission & Validation
+Verify successful form submission when all required fields are filled and proper validation messages when fields are missing.
+
+TC10 – Responsiveness & Integration
+Verify that the page is responsive on different screen sizes and that media elements do not conflict with form functionality.
+
+Output Format Required from the Agent
+
+Present the results in a test case table with the following columns:
+Test Case ID
+Module / Feature
+Test Scenario
+Input Data
+Expected Output
+Remarks / Notes
+
+##Goal
+Ensure the HTML5 Event Page is:
+Functionally correct
+User-friendly
+Media-integrated
+Form-validated
+Responsive across devices
+
+##note:
+only use the HTML5 

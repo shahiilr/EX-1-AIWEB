@@ -32,8 +32,12 @@ python3 -m http.server 8000
 
 Screenshots
 -----------
-- [Screenshot 1](Screenshot%20from%202026-01-20%2023-16-49.png)
-- [Screenshot 2](Screenshot%20from%202026-01-20%2023-17-03.png)
+Layout and styling screenshots (click to open full size):
+
+![Event page layout - media & form](Screenshot%20from%202026-01-20%2023-16-49.png)
+
+![Event page layout - responsive view](Screenshot%20from%202026-01-20%2023-17-03.png)
+
 
 Git / Push to GitHub
 --------------------
